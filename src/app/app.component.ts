@@ -11,7 +11,7 @@ import { StandsService } from './Servicios/stands.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title:string = 'Personjaes y Stands de Jojo';
+  title:string = 'Personjes y Stands de Jojo';
   enlace:string="https://jojos-bizarre-api.netlify.app/assets/"
   imagenStand:string=""
   public personas:Array<any> = [];
